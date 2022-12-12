@@ -1,0 +1,128 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box
+}
+
+div, body {
+    display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: f9faf8;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+} 
+
+.navigation {
+    gap: 16px;
+}
+
+button {
+    background-color: 3882F6;
+    color: inherit;
+    width: 170px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-family: inherit;
+}
+
+.hero_picture {
+    background-image: url('https://unsplash.it/2500?image=904');
+    justify-content: flex-end;
+    flex: 0 0 50%;
+    align-items: flex-end;
+    border-radius: 8px;
+    height: 68vh;
+    width: 52vw;
+}
+
+.section--1, .hero, .hero_picture, .section, .hero_text, .header, .navigation { 
+    display: flex;
+}
+
+.section--1, .header, .section--1, .hero {
+    justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-family: inherit;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 800;
+}
+
+p {
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    color: inherit;
+}
+
+.section--1, .header {
+    align-items: flex-end;
+    gap: 60px;
+    background-color: #1f2937;
+    width: 100%;
+}
+
+.section {
+    flex-direction: column;
+}
+
+.wrapper {
+    max-width: 1064px;
+    margin: auto;
+    gap: 60px;
+}
+
+
+.section--1, .hero {
+    min-height: 250px;
+    align-items: center;
+}
+
+
+.section--1, .hero_text {
+    flex: 1;
+    flex-direction: column;
+    gap:16px;
+}
+
+.section--1, .hero_picture {
+    align-self: stretch;
+}
+
+.section--1 {
+    padding-top: 36px;
+    padding-bottom: 52px;
+}
+
+.hero {
+    gap: 100px;
+}
+
+.header {
+    margin-bottom: 10%;
+}
+
+.hero_text {
+    color: e5e7eb;
+}
